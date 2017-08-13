@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.kraken.com/0/public/Ticker?pair=XETHZUSD%2CXXBTZEUR"
+    },
+    "response": {
+      "body": "{\"error\":[],\"result\":{\"XETHZUSD\":{\"a\":[\"293.29979\",\"4\",\"4.000\"],\"b\":[\"293.29300\",\"3\",\"3.000\"],\"c\":[\"293.00000\",\"1.23352226\"],\"v\":[\"9124.59016216\",\"85873.73697167\"],\"p\":[\"300.05630\",\"303.87138\"],\"t\":[2271,24195],\"l\":[\"292.25000\",\"291.37000\"],\"h\":[\"310.99726\",\"320.00000\"],\"o\":\"309.50000\"},\"XXBTZEUR\":{\"a\":[\"3317.00000\",\"20\",\"20.000\"],\"b\":[\"3316.36300\",\"1\",\"1.000\"],\"c\":[\"3331.10400\",\"25.17980349\"],\"v\":[\"519.70921615\",\"15181.74735379\"],\"p\":[\"3425.20761\",\"3363.99905\"],\"t\":[1541,41353],\"l\":[\"3286.99200\",\"3175.00100\"],\"h\":[\"3569.83900\",\"3582.90200\"],\"o\":\"3298.51200\"}}}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 12:27:29 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d0d6fbcb03c42c41b5bd0fa2d09afb8371502627248; expires=Mon, 13-Aug-18 12:27:28 GMT; path=/; domain=.kraken.com; HttpOnly",
+        "Cache-Control": "no-cache,max-age=0",
+        "Vary": "Accept-Encoding",
+        "CF-Cache-Status": "MISS",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "38dbab2f9b2026c0-FRA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

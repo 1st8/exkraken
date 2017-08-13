@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.kraken.com/0/public/AssetPairs?pair=XXBTZEUR%2CXETHZUSD"
+    },
+    "response": {
+      "body": "{\"error\":[],\"result\":{\"XETHZUSD\":{\"altname\":\"ETHUSD\",\"aclass_base\":\"currency\",\"base\":\"XETH\",\"aclass_quote\":\"currency\",\"quote\":\"ZUSD\",\"lot\":\"unit\",\"pair_decimals\":5,\"lot_decimals\":8,\"lot_multiplier\":1,\"leverage_buy\":[2,3,4,5],\"leverage_sell\":[2,3,4,5],\"fees\":[[0,0.26],[50000,0.24],[100000,0.22],[250000,0.2],[500000,0.18],[1000000,0.16],[2500000,0.14],[5000000,0.12],[10000000,0.1]],\"fees_maker\":[[0,0.16],[50000,0.14],[100000,0.12],[250000,0.1],[500000,0.08],[1000000,0.06],[2500000,0.04],[5000000,0.02],[10000000,0]],\"fee_volume_currency\":\"ZUSD\",\"margin_call\":80,\"margin_stop\":40},\"XXBTZEUR\":{\"altname\":\"XBTEUR\",\"aclass_base\":\"currency\",\"base\":\"XXBT\",\"aclass_quote\":\"currency\",\"quote\":\"ZEUR\",\"lot\":\"unit\",\"pair_decimals\":3,\"lot_decimals\":8,\"lot_multiplier\":1,\"leverage_buy\":[2,3,4,5],\"leverage_sell\":[2,3,4,5],\"fees\":[[0,0.26],[50000,0.24],[100000,0.22],[250000,0.2],[500000,0.18],[1000000,0.16],[2500000,0.14],[5000000,0.12],[10000000,0.1]],\"fees_maker\":[[0,0.16],[50000,0.14],[100000,0.12],[250000,0.1],[500000,0.08],[1000000,0.06],[2500000,0.04],[5000000,0.02],[10000000,0]],\"fee_volume_currency\":\"ZUSD\",\"margin_call\":80,\"margin_stop\":40}}}",
+      "headers": {
+        "Date": "Sun, 13 Aug 2017 12:22:08 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=ddcb2591c719dc015e8e7f00c44756bf61502626926; expires=Mon, 13-Aug-18 12:22:06 GMT; path=/; domain=.kraken.com; HttpOnly",
+        "Cache-Control": "public,max-age=60,smaxage=60",
+        "Vary": "Accept-Encoding",
+        "CF-Cache-Status": "MISS",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "38dba3519eb40f45-FRA"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
