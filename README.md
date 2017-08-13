@@ -1,13 +1,12 @@
 # Exkraken
 
-**Work in Progress**
+Elixir client for the kraken.com API. **Work in Progress**
 
-Elixir client for the kraken.com API.
+[Documentation](https://hexdocs.pm/exkraken)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `exkraken` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `exkraken` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -17,6 +16,27 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/exkraken](https://hexdocs.pm/exkraken).
+Add `exkraken` to your applications list if your Elixir version is 1.3 or lower:
+
+```elixir
+def application do
+  [applications: [:exkraken]]
+end
+```
+
+## Implementation Progress
+
+### Public market data
+
+[x] Get server time   
+[x] Get asset info   
+[x] Get tradable asset pairs   
+[x] Get ticker information   
+[ ] Get OHLC data   
+[ ] Get order book   
+[ ] Get recent trades   
+[ ] Get recent spread data   
+
+### Private user data
+
+Nothing yet.
