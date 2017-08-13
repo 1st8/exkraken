@@ -10,13 +10,23 @@ defmodule Exkraken.Mixfile do
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
       deps: deps(),
+      package: [
+        maintainers: ["1st8"],
+        licenses: ["MIT"],
+        links: %{github: "https://github.com/1st8/exkraken"}
+      ],
+      description: """
+      Elixir client for the kraken.com API
+      """,
 
       # Docs
-      name: 'Exkraken',
+      name: "Exkraken",
       source_url: "https://github.com/1st8/exkraken",
-      docs: [main: "Exkraken", # The main page in the docs
-       # logo: "path/to/logo.png",
-       extras: ["README.md"]]
+      docs: [
+        main: "Exkraken", # The main page in the docs
+        # logo: "path/to/logo.png",
+        extras: ["README.md"]
+      ]
     ]
   end
 
